@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  pad: 0;
+}
+
+.flexcontainer{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 60vw;
+  border: 2px dashed #555;
+  position: relative;
+}
+
+.levelbox{
+  width: 20vw;
+  background-color: blue;
+}
+
+.toolbox{
+  width: 20vw;
+  background-color: aqua;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background: dodgerblue;
+  position: absolute;
+  cursor: grab;
+}
+
